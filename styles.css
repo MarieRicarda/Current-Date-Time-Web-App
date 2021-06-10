@@ -1,0 +1,39 @@
+body {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+ text-align: center;
+}
+
+.button {
+   background: #A11ED0;
+   background-image: -webkit-linear-gradient(top, #A11ED0, #C2382F);
+   background-image: -moz-linear-gradient(top, #A11ED0, #C2382F);
+   background-image: -ms-linear-gradient(top, #A11ED0, #C2382F);
+   background-image: -o-linear-gradient(top, #A11ED0, #C2382F);
+   background-image: -webkit-gradient(to bottom, #A11ED0, #C2382F);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 40px;
+   font-weight: 100;
+   padding: 40px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.button:hover {
+   background: #F5532C;
+   border: solid #FFAE00 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
